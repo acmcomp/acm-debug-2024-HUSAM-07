@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 
 class ACM_Debugging_Competition:
-    @app.route("/bye")
+    @app.route("/hi")
     def index():
         return "hi"
 
-    @app.route("/hi")
+    @app.route("/bye")
     def bye():
         return "bye"
 
